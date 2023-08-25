@@ -1,0 +1,80 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for header and navigation */
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling for banner */
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 10rem 0;
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Styling for course description */
+.course-description {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.course-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.course-description p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f2f2f2;
+}
